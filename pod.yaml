@@ -1,0 +1,10 @@
+apiVersion: V1
+kind : Pod
+metadata: 
+  name: sample-pod
+spec: 
+   containers:
+   - name: sample-container
+     image: ramnikj/samplewebapp
+     ports: 
+     -  containerPort: 80
